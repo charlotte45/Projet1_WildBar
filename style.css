@@ -1,0 +1,159 @@
+.enter {
+	background-image: url("images/fond_biere_1.jpg");
+	background-repeat: no-repeat;
+	opacity: 0.7;
+	height: 720px;
+}
+
+.logo {
+	margin-top: 200px;
+}
+
+.schedule {
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(98,94,91);
+}
+
+.schedule_bloc {
+	margin-top: -260px;
+}
+/*charlotte*/
+
+#comptoir {
+  margin-left: -15px;
+  margin-right: -15px;
+  background-color: #fba858;
+}
+
+#intro {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 2em;
+  color: white;
+}
+
+#title {
+  font-size: 4em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  color: white;
+}
+
+#menuBoissons .tab-content {
+  color : grey;
+  background-color: white;
+  padding : 5px 15px;
+  height: 510px;
+}
+
+/* remove border radius for the tab */
+
+#menuBoissons .nav-pills > li > a {
+  border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#menuBoissons .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#menuBoissons {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  color: #fff;
+  background-color: grey;
+}
+
+.nav-pills>li>a {
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+#cocktails h3, #sansAlcool h3, #softs h3 {
+  text-transform: uppercase;
+  color: #fba858;
+  margin: 40px;
+  font-size: 3em;
+  background-color: grey;
+  padding: 10px;
+}
+
+#cocktails li, #sansAlcool li, #softs li {
+  list-style-type: none;
+  font-size: 3em;
+}
+
+#comptoir span {
+  color: #fba858;
+  text-transform: uppercase;
+}
+
+aside {
+  height: 750px;
+  background-image: url('images/cocktail(1).jpg');
+  background-repeat: no-repeat;
+}
+
+.price {
+  float: right;
+}
+
+.photosBar {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/*.carousel-caption h3 {
+  font-size: 3em;
+  background-color: #fba858;
+  border-radius: 10px;
+}
+
+.carousel-caption p {
+  font-size: 2em;
+  background-color: #fba858;
+  border-radius: 10px;
+}*/
+
+/*chris*/
+footer {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+#nh {
+    background-color: white;
+    color: darkslategrey;
+    padding: 10px;
+}
+
+#pratik {
+    background-color: white;
+    color: darkslategrey;
+    padding: 10px;
+}
+
+#staff {
+    background-color: #fba858;
+    color: darkslategrey;
+    padding: 10px;
+}
+
+#dev {
+    background-color: #fba858;
+    color: white;
+    padding: 10px;
+}
+
