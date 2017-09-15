@@ -16,16 +16,18 @@
 
 		        <header>
 
-		                 <div class="container-fluid enter">
+		                 <div id="home" class="container-fluid enter"></div>
+		                 <div class="container bloc_logo">
 		                    <div class="row logo"> 
-		                       <img class="col-sm-offset-5 col-sm-2" src="http://via.placeholder.com/300x300" alt="placeholder">
+		                       <img class="col-xs-offset-4 col-xs-4" src="images/logoWcslittle.png" alt="logo">
 		                    </div>
 		                 </div>
 		                 <div class="container-fluid schedule_bloc">
-		                 	<div class=" row general_schedule"> 
-		                          <p class="col-sm-offset-4 col-sm-4 schedule">Du mardi au dimanche//De 18H à 2H</p>
-		                          <img class="col-sm-offset-2 col-sm-2" src="http://via.placeholder.com/150x150" alt="placeholder"> 
-		                      </div>
+		                 	<div class=" row general_schedule">
+		                 	      <p class="visible-xs col-xs-12 hidden_happy_hour">HAPPY HOUR<span class="hidden_happy_hour_schedule">18H/20h</span></p>
+		                          <p class="col-md-offset-4 col-md-4 col-xs-12 schedule">Du mardi au dimanche//De 18H à 2H</p>
+		                          <img class="col-sm-offset-2 col-sm-2 hidden-xs hidden-sm happy_hour" src="http://via.placeholder.com/300x300" alt="placeholder"> 
+		                    </div>
 		                 </div>
 		        	
 		        </header>
@@ -48,9 +50,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">HOME<span class="sr-only">(current)</span></a></li>
-        <li><a href="#">LES E'MOUSSE'TILLANTES</a></li>
-        <li><a href="#">AU COMPTOIR</a></li>
+        <li><a href="#home">HOME<span class="sr-only">(current)</span></a></li>
+        <li><a href="#bieres">LES E'MOUSSE'TILLANTES</a></li>
+        <li><a href="#comptoir">AU COMPTOIR</a></li>
         <li><a href="#">NOTRE HISTOIRE</a></li>
         <li><a href="#">LE BAR</a></li>
         <li><a href="#">INFO</a></li>   
@@ -60,46 +62,47 @@
 </nav>
 
 <!--beer section-->
-<section class="container-fluid beer">
+<section id="bieres" class="container-fluid beer">
 	<div class="row general_beer">
 		<div class="row beer_map col-sm-8 ">
-			<h2 class="col-sm-6">LES E'MOUSSE'TILLANTES</h2>
-			<div class=" row col-sm-offset-1 col-sm-10 beer_list ">
+			<h2 class="col-xs-10 section_title">LES E'MOUSSE'TILLANTES</h2>
+			<div class=" row col-xs-offset-1 col-xs-10 beer_list ">
 			  <div class="row list_1">
-				<ul class="col-sm-6 beer-blondes">
+				<ul class="col-xs-6 beer-blondes">
 					<li class="title-beer">Blondes</li>
-					<li>Le Fou Allier</li>
-					<li>Le Mange Soif</li>
-					<li>La Roteuse</li>
+					<li class="blondes_list">Le Fou Allier</li>
+					<li class="blondes_list">Le Mange Soif</li>
+					<li class="blondes_list">La Roteuse</li>
 				</ul>
 	
-				<ul class="col-sm-6 beer-ambrees">
+				<ul class="col-xs-6 beer-ambrees">
 					<li class="title-beer">Ambrées</li>
-				    <li>La Mise en Biére</li>
-				    <li>L'Harouquine</li>
-				    <li>La Loosehead</li>
+				    <li class="ambrees_list">La Mise en Biére</li>
+				    <li class="ambrees_list">L'Harouquine</li>
+				    <li class="ambrees_list">La Loosehead</li>
 				</ul>
 			  </div>
 			  <div class="row list_2">	
-				<ul class="col-sm-6 beer-blanches">
+				<ul class="col-xs-6 beer-blanches">
 					<li class="title-beer">Blanches</li>
-				    <li>La Grokochon</li>
-				    <li>La Loosehead</li>
+				    <li class="blanches_list">La Grokochon</li>
+				    <li class="blanches_list">La Loosehead</li>
 				</ul>
 
-				<ul class="col-sm-6 beer-brunes">
+				<ul class="col-xs-6 beer-brunes">
 					<li class="title-beer">Brunes</li>
-				    <li>La Mort Subite</li>
-				    <li>La Peautagée</li>
+				    <li class="brunes_list">La Mort Subite</li>
+				    <li class="brunes_list">La Peautagée</li>
 				</ul>
-			  </div>	
-				
+			  </div>			
 			</div>
+			<p class="col-xs-offset-2 col-xs-5 beer_size">sm​ (25cl)​ 3.5€​ // md​ (50cl)​ 6.5€​ // ​lg​ (1L)​ 11.5€</p>
+			<p class="col-xs-offset-7 col-xs-4 other_choice">Et si vous n'aimez pas...</p>
 
 			
 		</div>
-		<article class="col-sm-4">
-			<img src="http://via.placeholder.com/400x400" alt="placeholder">	
+		<article class="col-md-4 hidden-xs hidden-sm">
+			<img src="images/biere1.jpg" alt="photo de biere"/>	
 		</article>
 		
 	</div>
