@@ -128,7 +128,7 @@
 .comptoir {
   margin-left: -15px;
   margin-right: -15px;
-  background-color: #fba858;
+  background-color: #333025;
 }
 
 .intro {
@@ -140,11 +140,13 @@
 
 .sectionTitle {
   font-size: 3em;
+  font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 40px;
   margin-top: 30px;
-  color: white;
+  color: #D1860D;
   float: right;
+  font-family: 'Comfortaa', cursive;
 }
 
 .menuBoissons .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
@@ -244,6 +246,9 @@ footer {
 
 .notrehistoire {
     color: #D1860D;
+    font-family: 'Comfortaa', cursive;
+    font-size: 3em;
+    font-weight: bold;
 }
 
 .pratik {
@@ -251,7 +256,8 @@ footer {
     text-align: center;
     margin-right: -15px;
     margin-left: -15px;
-    background-color: white;
+    margin-top: -30px;
+    background-color: #333025;
     color: #737373;
     padding: 10px;
 }
@@ -271,8 +277,8 @@ footer {
     text-align: center;
     margin-right: -15px;
     margin-left: -15px;
-    background-color: #D1860D;
-    color: #737373;
+    background-color: #333025;
+    color: white;
     padding: 10px;
 }
 
