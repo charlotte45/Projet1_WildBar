@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
 .enter {
 	background-image: url("images/fond_biere_1.jpg");
 	background-repeat: no-repeat;
@@ -35,9 +37,18 @@
 	margin-top: -300px;
 }
 
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 0px;
+    margin-left: -16px;
+    margin-top: -1px;
+}
+
 .navbar {
     position: relative;
     min-height: 50px;
+    margin-top: 8px;
     margin-bottom: 0px;
     border: 1px solid transparent;
         border-top-color: transparent;
@@ -48,11 +59,12 @@
 
 .navbar-collapse {
 	background-color: #333025;
+
 }
 
 .navbar-nav > li {
     float: left;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
@@ -76,6 +88,8 @@
 	font-size: 3em;
 	color: #D1860D;
 	font-weight: bold;
+  margin-left: -100px;
+  font-family: 'Comfortaa', cursive;
 }
 
 .title-beer{
@@ -89,6 +103,7 @@
 	font-size: 1.5em;
 	list-style-type: none;
 	color: #333025;
+  margin-left: 20px;
 }
 
 .beer_size {
@@ -102,6 +117,10 @@
 	color: #333025;
 	margin-left: 520px;
 	margin-top: 20px;
+}
+.beer-picture {
+  margin-top: 1px;
+  margin-left: -79px;
 }
 
 /*charlotte*/
