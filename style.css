@@ -5,14 +5,15 @@
 	height: 720px;
 }
 
-.logo {
-	margin-top: 200px;
+.bloc_logo {
+    margin-top: -550px;
 }
 
+
 .schedule {
-    margin-top: 200px;
+    margin-top: 65px;
     text-align: center;
-    color: white;
+    color: #D1860D;
     font-weight: bold;
     font-size: 1.5em;
     padding: 10px;
@@ -20,93 +21,167 @@
     background-color: rgb(98,94,91);
 }
 
-.schedule_bloc {
-	margin-top: -260px;
+.happy_hour {
+	margin-top: -105px;
 }
+
+.hidden_happy_hour {
+	color: #D1860D;
+	background-color: rgb(98,94,91);
+} 
+
+
+.schedule_bloc {
+	margin-top: -300px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+}
+
+.navbar-collapse {
+	background-color: #333025;
+}
+
+.navbar-nav > li {
+    float: left;
+    font-size: 1em;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #D1860D;
+    background-color: transparent;
+    border-bottom: 2px solid #D1860D;
+    padding-bottom: 5px;
+}
+
+.beer {
+	background-color: #737373;
+}
+
+.beer_list {
+	background-color: #737373;
+	margin-top: 30px;
+
+}
+
+.section_title {
+	font-size: 3em;
+	color: #D1860D;
+	font-weight: bold;
+}
+
+.title-beer{
+	font-size: 2em;
+	list-style-type: none;
+	color: #333025;
+	font-weight:bold;
+}
+
+.blondes_list, .ambrees_list, .blanches_list, .brunes_list{
+	font-size: 1.5em;
+	list-style-type: none;
+	color: #333025;
+}
+
+.beer_size {
+	font-size: 1.3em;
+	color: #333025;
+	margin-top: 20px
+}
+
+.other_choice {
+	font-size: 2em;
+	color: #333025;
+	margin-left: 520px;
+	margin-top: 20px;
+}
+
 /*charlotte*/
 
-#comptoir {
+.comptoir {
   margin-left: -15px;
   margin-right: -15px;
   background-color: #fba858;
 }
 
-#intro {
+.intro {
   margin-top: 20px;
   margin-bottom: 40px;
   font-size: 2em;
   color: white;
 }
 
-#title {
-  font-size: 4em;
+.sectionTitle {
+  font-size: 3em;
   text-transform: uppercase;
   margin-bottom: 40px;
   margin-top: 30px;
   color: white;
+  float: right;
 }
 
-#menuBoissons .tab-content {
-  color : grey;
-  background-color: white;
-  padding : 5px 15px;
-  height: 510px;
+.menuBoissons .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: white;
+    cursor: default;
+    background-color: grey;
+    text-transform: uppercase;
 }
 
-/* remove border radius for the tab */
-
-#menuBoissons .nav-pills > li > a {
-  border-radius: 0;
+.menuBoissons .nav-bar {
+  float: left;
 }
 
-/* change border radius for the tab , apply corners on top*/
-
-#menuBoissons .nav-pills > li > a {
-  border-radius: 4px 4px 0 0 ;
+.menuBoissons a {
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
-#menuBoissons {
-  margin-left: -10px;
-  margin-right: -10px;
-}
-
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-  color: #fff;
-  background-color: grey;
-}
-
-.nav-pills>li>a {
-  text-transform: uppercase;
-  font-size: 2em;
-}
-
-#cocktails h3, #sansAlcool h3, #softs h3 {
-  text-transform: uppercase;
-  color: #fba858;
-  margin: 40px;
-  font-size: 3em;
-  background-color: grey;
-  padding: 10px;
-}
-
-#cocktails li, #sansAlcool li, #softs li {
-  list-style-type: none;
-  font-size: 3em;
-}
-
-#comptoir span {
-  color: #fba858;
-  text-transform: uppercase;
-}
-
-aside {
-  height: 750px;
-  background-image: url('images/cocktail(1).jpg');
-  background-repeat: no-repeat;
+.texteCarte h3 {
+    font-size: 30px;
+    color: #fba858;
+    background-color: grey;
+    text-transform: uppercase;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .price {
   float: right;
+}
+
+.texteCarte ul {
+  list-style-type: none;
+}
+
+.texteCarte {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  line-height: 1.42857143;
+  color: white;
+}
+
+.texteCarte span {
+  color: grey;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.photoCocktail {
+  background-image: url('images/cocktail1.jpg');
+  background-repeat: no-repeat;
+  height: 550px;
 }
 
 .photosBar {
@@ -114,17 +189,22 @@ aside {
   margin-right: -15px;
 }
 
-/*.carousel-caption h3 {
-  font-size: 3em;
-  background-color: #fba858;
-  border-radius: 10px;
+.photosBar h3 {
+  font-size: 40px;
 }
 
-.carousel-caption p {
-  font-size: 2em;
-  background-color: #fba858;
-  border-radius: 10px;
-}*/
+.photosBar p {
+  font-size: 25px
+}
+
+.jeuxHidden {
+  background-color: grey;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
 
 /*chris*/
 footer {
