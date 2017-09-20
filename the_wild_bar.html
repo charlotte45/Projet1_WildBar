@@ -8,7 +8,7 @@
 	     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
          <link rel="stylesheet" type="text/css" href="style.css">
 	
-	     <title>le Wild Bar</title>
+	     <title>Le Wild Bar</title>
 
 	</head>
 
@@ -98,8 +98,10 @@
 
 			
 		</div>
+
 		<article class="col-md-3 hidden-xs hidden-sm beer-picture">
 			<img class="photos_de_biere img-responsive img-rounded" src="images/biere1.jpg" alt="photo de biere"/>	
+
 		</article>
 		
 	</div>
@@ -107,55 +109,51 @@
 </section> 
 <!--charlotte-->
 
-            <section class="container-fluid comptoir" id="auComptoir">
-                <div class="row">
-                    <aside class="col-sm-4 hidden-xs photoCocktail"></aside>
-                    <div class="col-sm-8" id="partieDroite">
-                        <p class="col-sm-4 intro"><em>Vous pouvez aussi choisir...</em></p>
-                        <h2 class="col-sm-offset-3 col-sm-5 sectionTitle">Au comptoir</h2>
-                        <!--tab panel-->
-                        <div class="menuBoissons container">
-                            <!-- Nav tabs -->
-                            <ul class="nav nav-tabs" role="tablist">
-                                <li role="presentation" class="active"><a href="#cocktails" aria-controls="cocktails" role="tab" data-toggle="tab">Cocktails</a></li>
-                                <li role="presentation"><a href="#cocktailsSansAlcool" aria-controls="cocktailsSansAlcool" role="tab" data-toggle="tab">Cocktails sans alcool</a></li>
-                                <li role="presentation"><a href="#softs" aria-controls="softs" role="tab" data-toggle="tab">Softs</a></li>
-                            </ul>
+<section class="container-fluid comptoir">
+    <div class="row">
+        <div class="col-sm-3 hidden-xs">
+            <img src="images/cocktail2.jpg" class="img-responsive cocktails" />
+        </div>
+        <div class="col-sm-9">
+            <div class="row">
+                <p class="col-sm-6 title1">Vous pouvez aussi choisir...</p>
+                <p class="col-sm-6 title2">Au comptoir</p>
+            </div>
 
-                            <!-- Tab panes -->
-                            <div class="tab-content texteCarte">
-                                <div role="tabpanel" class="tab-pane active" id="cocktails">
-                                    <h3>Cocktails <span class="price">7€</span></h3>
-                                    <ul>
-                                        <li><span>// PHP //</span> Pinault / Hydromel / Porto</li>
-                                        <li><span>// CSS //</span> Calva / Sucre / Sirop de pomme</li>
-                                        <Li><span>// HTML //</span> Hydromel / Tequila / Martini / Liqueur</Li>
-                                        <li><span>// W3C //</span> Mélange de trois Whiskies / Cognac</li>
-                                        <li><span>// GIT //</span> Gin Tonic</li>
-                                    </ul>
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="cocktailsSansAlcool">
-                                    <h3>Cocktails sans alcool <span class="price">5€</span></h3>
-                                    <ul>
-                                        <li><span>// Atom //</span> Abricot / Orange / Ananas</li>
-                                        <li><span>// PHPStorm //</span> Poire / Pomme / Citron</li>
-                                        <li><span>// SublimText //</span> Soda / Banane / Fraise</li>
-                                        <li><span>// Vim //</span> Vanille / Lait / Miel</li>
-                                        <li><span>// Emacs //</span> Eau gazeuse / Menthe / Citron vert</li>
-                                    </ul>
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="softs">
-                                    <h3>Softs <span class="price">3€</span></h3>
-                                    <ul>
-                                        <li><span>// Soda //</span><br/>Coca // Orangina // Sprite // Limonade</li><br/
-                                        <li><span>// Jus de fruits //</span><br/>Orange // Banane // Poire // Pomme // Raisin // Pêche // Fraise // Abricot</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row">   
+                <div class="col-sm-4 carte">
+                    <h3>Cocktails <span class="price">7€</span></h3>
+                        <ul>
+                            <li><span>// PHP //</span> Pinault / Hydromel / Porto</li>
+                            <li><span>// CSS //</span> Calva / Sucre / Sirop de pomme</li>
+                            <Li><span>// HTML //</span> Hydromel / Tequila / Martini / Liqueur</Li>
+                            <li><span>// W3C //</span> Mélange de trois Whiskies / Cognac</li>
+                            <li><span>// GIT //</span> Gin Tonic</li>
+                        </ul>
                 </div>
-            </section>
+                <div class="col-sm-4 carte">
+                     <h3>Softs <span class="price">3€</span></h3>
+                        <ul>
+                            <li><span>// Soda //</span><br/>Coca // Orangina // Sprite // Limonade</li><br/>
+                            <li><span>// Jus de fruits //</span><br/>Orange // Banane // Poire // Pomme // Raisin // Pêche // Fraise // Abricot</li>
+                        </ul>
+                </div>
+                <div class="col-sm-4 carte">
+                    <h3>Cocktails sans alcool <span class="price">5€</span></h3>
+                    <ul>
+                        <li><span>// Atom //</span> Abricot / Orange / Ananas</li>
+                        <li><span>// PHPStorm //</span> Poire / Pomme / Citron</li>
+                        <li><span>// SublimText //</span> Soda / Banane / Fraise</li>
+                        <li><span>// Vim //</span> Vanille / Lait / Miel</li>
+                        <li><span>// Emacs //</span> Eau gazeuse / Menthe / Citron vert</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
             <section class="photosBar" id="carouselJeux">
                 <div class="row">
                     <p class="hidden-sm hidden-md hidden-lg jeuxHidden">Venez découvrir notre salle de jeux<br/>2 billards, 1 jeu de fléchettes et 1 flipper !</p>
@@ -213,53 +211,69 @@
 
 
 <!--chris                                     COMMIT SEULEMENT CETTE PARTIE-->
-    <section id ="histoire" class = "container-fluid">
+    <section id ="histoire" class ="container-fluid">
 
-        <!--<div class = "row nh">
+        <div class ="row background-image">
 
-            <div class = "col-lg-12"><h1>Notre histoire...</h1>
+            <div class ="col-lg-12"></div>
+        </div>
+
+        <div class ="row staff">
+
+
+                <div class ="col-lg-3 pictures">
+                    <div class="row">
+                        <a target="_blank" href="http://www.hostingpics.net" title="Hebergeur d'image"><img src="https://img11.hostingpics.net/pics/935157sylvain200200.jpg" class="img-circle" border="0" alt="Hebergeur d'image" /></a>
+                    </div>
+                    <div class="row">
+                        <h3>SYLVAIN</h3>
+                    </div>
+                </div>
+
+                <div class ="col-lg-6">
+                    <div class="row">
+                        <h1 class="title">Notre histoire...</h1>
+                    </div>
+                    <div class="row">
+                        <p class="texteHistoire">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.<br/> 
+                        Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar. Nulla sollicitudin. Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae ligula. Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellentesque diam. Integer quis metus vitae elit lobortis egestas. Lorem ipsum dolor sit amet, consectetuer adipiscing elit Integer quis metus vitae elit lobortis egestas. Lorem ipsum dolor sit amet, consectetuer adipiscing elit Integer quis metus vitae elit lobortis egestas. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        </p>
+                    </div>
+                </div>
+
+                <div class ="col-lg-3 pictures">
+                    <div class="row">
+                        <a target="_blank" href="http://www.hostingpics.net" tit le="Hebergeur d'image"><img src="https://img11.hostingpics.net/pics/286988nicolas200200.jpg" class="img-circle" border="0" alt="Hebergeur d'image" /></a>
+                    </div>
+                    <div class="row">
+                        <h3>NICOLAS</h3>
+                    </div>
+                </div>
+        </div>
+
+    </section>
+
+    <footer id ="infos" class ="container-fluid">
+
+        <div class ="row pratik">
+
+            <div class ="col-lg-4"><strong>Ouverture<br/>De 18h à 02h<br/>Fermé le lundi<br/>HAPPY HOURS de 18h à 20h</strong><br/>
             </div>
 
-        </div>-->
-
-        <div class = "row staff"><br/>
-
-            <div class = "col-lg-3"><strong><h1>SYLVAIN</h1></strong><br/><br/><a target="_blank" href="http://www.hostingpics.net" title="Hebergeur d'image"><img src="https://img11.hostingpics.net/pics/935157sylvain200200.jpg" border="0" alt="Hebergeur d'image" /></a><br/><br/>
+            <div class ="col-lg-4"><strong>Wild Bar<br/>1 avenue du champs de Mars<br/>45000 ORLEANS<br/>02 38 69 80 80 / www.wildbar.fr / staff@wildbar.fr</strong>
             </div>
 
-            <div class = "col-lg-6"><h1 class="notrehistoire">Notre histoire...</h1><br/><br/>
-
-                « Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.
-
-                Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar. Nulla sollicitudin. Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae ligula. Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellentesque diam. Integer quis metus vitae elit lobortis egestas. Lorem ipsum dolor sit amet, consectetuer adipiscing elit Integer quis metus vitae elit lobortis egestas. Lorem ipsum dolor sit amet, consectetuer adipiscing elit Integer quis metus vitae elit lobortis egestas. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. »<br/><br/>
-
-            </div>
-
-            <div class = "col-lg-3"><strong><h1>NICOLAS</h1></strong><br/><br/><a target="_blank" href="http://www.hostingpics.net" title="Hebergeur d'image"><img src="https://img11.hostingpics.net/pics/286988nicolas200200.jpg" border="0" alt="Hebergeur d'image" /></a><br/><br/>
-            </div>
-
-        </div><br/>
-
-    </section >
-
-    <footer id ="infos" class = "container-fluid">
-
-        <div class = "row pratik">
-
-            <div class = "col-lg-4"><strong>Ouverture<br/>De 18h à 02h<br/>Fermé le lundi<br/>HAPPY HOURS de 18h à 20h</strong><br/>
-            </div>
-
-            <div class = "col-lg-4"><strong>Wild Bar<br/>1 avenue du champs de Mars<br/>45000 ORLEANS<br/>02 38 69 80 80 / www.wildbar.fr / staff@wildbar.fr</strong>
-            </div>
-
-            <div class = "col-lg-4"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2675.1917589168365!2d1.891984150864769!3d47.893973679102736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e4e52661ecb4eb%3A0x86bbb8261faea07!2s1+Avenue+du+Champ+de+Mars%2C+45100+Orl%C3%A9ans!5e0!3m2!1sfr!2sfr!4v1505469136174" width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe><br/><br/>
+            <div class ="col-lg-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d21401.533938706823!2d1.8941780000000001!3d47.893974!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e4e5268a751659%3A0x2fea9d6d51fe0564!2s1+Avenue+du+Champ+de+Mars%2C+45100+Orl%C3%A9ans%2C+France!5e0!3m2!1sfr!2sfr!4v1505489175706"
+                        width="200" height="200" frameborder="0" style="border:0" allowfullscreen>
+                </iframe>
             </div>
 
         </div>
 
-        <div class = "row dev">
+        <div class ="row dev">
 
-            <div class = "col-lg-12"><strong>Site développé par Beerman avec la collaboration du Staff</strong>
+            <div class ="col-lg-12"><strong>Site développé par Beerman avec la collaboration du Staff</strong>
             </div>
 
         </div>

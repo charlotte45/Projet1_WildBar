@@ -83,7 +83,7 @@
   font-family: 'Comfortaa', cursive;
 }
 
-.title-beer{
+.title-beer {
 	font-size: 2em;
 	list-style-type: none;
 	color: #333025;
@@ -110,6 +110,7 @@
 	margin-left: 520px;
 	margin-top: 20px;
 }
+
 .beer-picture {
   padding: 0px;
 }
@@ -145,99 +146,69 @@
 
 }
 
+
 /*charlotte*/
 
+
 .comptoir {
-  margin-left: -15px;
-  margin-right: -15px;
-  background-color: #333025;
+  background-color: #6a2c0c;
 }
 
-.intro {
-  margin-top: 20px;
-  margin-bottom: 40px;
-  font-size: 2em;
-  color: white;
+.comptoir ul {
+  color: #f18e1c;
 }
 
-.sectionTitle {
-  font-size: 3em;
-  font-weight: bold;
+.title1 {
+  color: #cb5909;
+  font-size: 2vw;
+  top: 20px;
+}
+
+.title2 {
+  color: #cb5909;
   text-transform: uppercase;
-  margin-bottom: 40px;
-  margin-top: 30px;
-  color: #D1860D;
-  float: right;
-  font-family: 'Comfortaa', cursive;
+  font-size: 3vw;
+  text-align: right;
+  top: 20px;
 }
 
-.menuBoissons .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    color: white;
-    cursor: default;
-    background-color: grey;
-    text-transform: uppercase;
+.carte {
+  top: 40px;
 }
 
-.menuBoissons .nav-bar {
-  float: left;
-}
-
-.menuBoissons a {
-    color: grey;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.texteCarte h3 {
-    font-size: 30px;
-    color: #fba858;
-    background-color: grey;
-    text-transform: uppercase;
-    padding: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+.comptoir h3 {
+  color: #1b100d;
+  font-size: 2vw;
+  text-align: left;
 }
 
 .price {
-  float: right;
+  color: #cb5909;
 }
 
-.texteCarte ul {
+.comptoir ul {
   list-style-type: none;
 }
 
-.texteCarte {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 20px;
-  line-height: 1.42857143;
-  color: white;
+.comptoir  ul span {
+  font-size: 1.5vw;
+  color: #cb5909;
 }
 
-.texteCarte span {
-  color: grey;
-  font-size: 30px;
-  text-transform: uppercase;
-}
-
-.photoCocktail {
-  background-image: url('images/cocktail1.jpg');
-  background-repeat: no-repeat;
-  height: 550px;
-}
-
-.photosBar {
-  margin-left: -15px;
-  margin-right: -15px;
+.comptoir ul {
+  font-size: 1vw;
 }
 
 .photosBar h3 {
   font-size: 40px;
+  background-color: #cb5909;
+  border-radius: 20px;
 }
 
 .photosBar p {
-  font-size: 25px
+  font-size: 25px;
+  background-color: #f18e1c;
+  border-radius: 20px;
 }
 
 .jeuxHidden {
@@ -273,26 +244,46 @@ footer {
     font-weight: bold;
 }
 
-.pratik {
-    vertical-align: middle;
-    text-align: center;
-    margin-right: -15px;
-    margin-left: -15px;
-    margin-top: -30px;
-    background-color: #333025;
-    color: #737373;
-    padding: 10px;
-}
+
 
 .staff {
     vertical-align: middle;
     text-align: center;
     margin-right: -15px;
     margin-left: -15px;
-    background-color: #737373;
-    color: white;
     padding: 30px;
+    background-image: url("https://img11.hostingpics.net/pics/782862bois650500.jpg"); 
+}
 
+.staff .title {
+  text-transform: uppercase;
+  color: #cb5909;
+}
+
+.staff h3 {
+  color: #f18e1c;
+}
+
+.texteHistoire {
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: justify;
+  padding: 30px;
+  border-radius: 30px;
+  color: #1b100d;
+}
+
+.pictures {
+  top: 120px;
+}
+
+.pratik {
+    vertical-align: middle;
+    text-align: center;
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: white;
+    color: #737373;
+    padding: 10px;
 }
 
 .dev {
@@ -304,4 +295,6 @@ footer {
     padding: 10px;
 }
 
+
+/*background-image: url("https://img11.hostingpics.net/pics/782862bois650500.jpg");*/
 
