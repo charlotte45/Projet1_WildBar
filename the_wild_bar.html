@@ -8,7 +8,7 @@
 	     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
          <link rel="stylesheet" type="text/css" href="style.css">
 	
-	     <title>le Wild Bar</title>
+	     <title>Le Wild Bar</title>
 
 	</head>
 
@@ -101,8 +101,8 @@
 
 			
 		</div>
-		<article class="col-md-3 hidden-xs hidden-sm beer-picture">
-			<img class="photos_de_biere" src="images/biere1.jpg" alt="photo de biere"/>	
+		<article class="col-md-3 hidden-xs hidden-sm">
+			<img class="img-responsive" src="images/biere1.jpg" alt="photo de biere"/>	
 		</article>
 		
 	</div>
@@ -110,55 +110,51 @@
 </section> 
 <!--charlotte-->
 
-            <section class="container-fluid comptoir" id="auComptoir">
-                <div class="row">
-                    <aside class="col-sm-4 hidden-xs photoCocktail"></aside>
-                    <div class="col-sm-8" id="partieDroite">
-                        <p class="col-sm-4 intro"><em>Vous pouvez aussi choisir...</em></p>
-                        <h2 class="col-sm-offset-3 col-sm-5 sectionTitle">Au comptoir</h2>
-                        <!--tab panel-->
-                        <div class="menuBoissons container">
-                            <!-- Nav tabs -->
-                            <ul class="nav nav-tabs" role="tablist">
-                                <li role="presentation" class="active"><a href="#cocktails" aria-controls="cocktails" role="tab" data-toggle="tab">Cocktails</a></li>
-                                <li role="presentation"><a href="#cocktailsSansAlcool" aria-controls="cocktailsSansAlcool" role="tab" data-toggle="tab">Cocktails sans alcool</a></li>
-                                <li role="presentation"><a href="#softs" aria-controls="softs" role="tab" data-toggle="tab">Softs</a></li>
-                            </ul>
+<section class="container-fluid comptoir">
+    <div class="row">
+        <div class="col-sm-3 hidden-xs">
+            <img src="images/cocktail2.jpg" class="img-responsive cocktails" />
+        </div>
+        <div class="col-sm-9">
+            <div class="row">
+                <p class="col-sm-6 title1">Vous pouvez aussi choisir...</p>
+                <p class="col-sm-6 title2">Au comptoir</p>
+            </div>
 
-                            <!-- Tab panes -->
-                            <div class="tab-content texteCarte">
-                                <div role="tabpanel" class="tab-pane active" id="cocktails">
-                                    <h3>Cocktails <span class="price">7€</span></h3>
-                                    <ul>
-                                        <li><span>// PHP //</span> Pinault / Hydromel / Porto</li>
-                                        <li><span>// CSS //</span> Calva / Sucre / Sirop de pomme</li>
-                                        <Li><span>// HTML //</span> Hydromel / Tequila / Martini / Liqueur</Li>
-                                        <li><span>// W3C //</span> Mélange de trois Whiskies / Cognac</li>
-                                        <li><span>// GIT //</span> Gin Tonic</li>
-                                    </ul>
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="cocktailsSansAlcool">
-                                    <h3>Cocktails sans alcool <span class="price">5€</span></h3>
-                                    <ul>
-                                        <li><span>// Atom //</span> Abricot / Orange / Ananas</li>
-                                        <li><span>// PHPStorm //</span> Poire / Pomme / Citron</li>
-                                        <li><span>// SublimText //</span> Soda / Banane / Fraise</li>
-                                        <li><span>// Vim //</span> Vanille / Lait / Miel</li>
-                                        <li><span>// Emacs //</span> Eau gazeuse / Menthe / Citron vert</li>
-                                    </ul>
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="softs">
-                                    <h3>Softs <span class="price">3€</span></h3>
-                                    <ul>
-                                        <li><span>// Soda //</span><br/>Coca // Orangina // Sprite // Limonade</li><br/
-                                        <li><span>// Jus de fruits //</span><br/>Orange // Banane // Poire // Pomme // Raisin // Pêche // Fraise // Abricot</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row">   
+                <div class="col-sm-4 carte">
+                    <h3>Cocktails <span class="price">7€</span></h3>
+                        <ul>
+                            <li><span>// PHP //</span> Pinault / Hydromel / Porto</li>
+                            <li><span>// CSS //</span> Calva / Sucre / Sirop de pomme</li>
+                            <Li><span>// HTML //</span> Hydromel / Tequila / Martini / Liqueur</Li>
+                            <li><span>// W3C //</span> Mélange de trois Whiskies / Cognac</li>
+                            <li><span>// GIT //</span> Gin Tonic</li>
+                        </ul>
                 </div>
-            </section>
+                <div class="col-sm-4 carte">
+                     <h3>Softs <span class="price">3€</span></h3>
+                        <ul>
+                            <li><span>// Soda //</span><br/>Coca // Orangina // Sprite // Limonade</li><br/>
+                            <li><span>// Jus de fruits //</span><br/>Orange // Banane // Poire // Pomme // Raisin // Pêche // Fraise // Abricot</li>
+                        </ul>
+                </div>
+                <div class="col-sm-4 carte">
+                    <h3>Cocktails sans alcool <span class="price">5€</span></h3>
+                    <ul>
+                        <li><span>// Atom //</span> Abricot / Orange / Ananas</li>
+                        <li><span>// PHPStorm //</span> Poire / Pomme / Citron</li>
+                        <li><span>// SublimText //</span> Soda / Banane / Fraise</li>
+                        <li><span>// Vim //</span> Vanille / Lait / Miel</li>
+                        <li><span>// Emacs //</span> Eau gazeuse / Menthe / Citron vert</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
             <section class="photosBar" id="carouselJeux">
                 <div class="row">
                     <p class="hidden-sm hidden-md hidden-lg jeuxHidden">Venez découvrir notre salle de jeux<br/>2 billards, 1 jeu de fléchettes et 1 flipper !</p>
