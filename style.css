@@ -246,6 +246,38 @@ footer {
     color: #D1860D;
 }
 
+
+
+.staff {
+    vertical-align: middle;
+    text-align: center;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 30px;
+    background-image: url("https://img11.hostingpics.net/pics/782862bois650500.jpg"); 
+}
+
+.staff .title {
+  text-transform: uppercase;
+  color: #cb5909;
+}
+
+.staff h3 {
+  color: #f18e1c;
+}
+
+.texteHistoire {
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: justify;
+  padding: 30px;
+  border-radius: 30px;
+  color: #1b100d;
+}
+
+.pictures {
+  top: 120px;
+}
+
 .pratik {
     vertical-align: middle;
     text-align: center;
@@ -254,17 +286,6 @@ footer {
     background-color: white;
     color: #737373;
     padding: 10px;
-}
-
-.staff {
-    vertical-align: middle;
-    text-align: center;
-    margin-right: -15px;
-    margin-left: -15px;
-    background-color: #737373;
-    color: white;
-    padding: 30px;
-
 }
 
 .dev {
@@ -276,3 +297,4 @@ footer {
     padding: 10px;
 }
 
+/*background-image: url("https://img11.hostingpics.net/pics/782862bois650500.jpg");*/
