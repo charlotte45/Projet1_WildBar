@@ -16,23 +16,17 @@
 
 		        <header>
 
-		                 <div id="home" class="container-fluid enter"></div>
-		                 <div class="container bloc_logo">
-		                    <div class="row logo"> 
-		                       <img class="col-xs-offset-4 col-xs-4" src="images/logoWcslittle.png" alt="logo">
-		                    </div>
-		                 </div>
-		                 <div class="container-fluid schedule_bloc">
-		                 	<div class=" row general_schedule">
-		                 	      <p class="visible-xs col-xs-12 hidden_happy_hour">HAPPY HOUR<span class="hidden_happy_hour_schedule">18H/20h</span></p>
-		                          <p class="col-md-offset-4 col-md-4 col-xs-12 schedule">Du mardi au dimanche//De 18H à 2H</p>
-		                          <img class="col-sm-offset-2 col-sm-2 hidden-xs hidden-sm happy_hour" src="images/happyhour6.png" alt="happy hour"> 
-		                    </div>
-		                 </div>
-		        	
-		        </header>
-
-<!--navbar-->
+		                 <div id="home" class="container-fluid home">
+                              <img src="images/fond_biere_2.jpg" class="background_picture img-responsive"/>
+                              <p class="logo row"> 
+                                  <img class="col-md-offset-2 col-md-8 col-xs-offset-3 col-xs-5 img-responsive" src="images/logowcs_new.png" alt="logo">
+                              </p>
+                              <div class="row happy_hour_picture">
+                                  <img class="col-md-offset-5 col-md-5 col-xs-offset-9 col-xs-3 img-responsive" src="images/happyhour6.png" alt="happy hour"> 
+                              </div>
+                              <p class="col-md-offset-4 col-md-4 col-xs-offset-3 col-xs-6 schedule">Du mardi au dimanche//De 18H à 2H</p>      
+                         </div>
+                         <!--navbar-->
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -49,17 +43,20 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-left">
         <li><a href="#home">HOME<span class="sr-only">(current)</span></a></li>
         <li><a href="#bieres">LES E'MOUSSE'TILLANTES</a></li>
-        <li><a href="#comptoir">AU COMPTOIR</a></li>
-        <li><a href="#">NOTRE HISTOIRE</a></li>
-        <li><a href="#">LE BAR</a></li>
-        <li><a href="#">INFO</a></li>   
+        <li><a href="#auComptoir">AU COMPTOIR</a></li>
+        <li><a href="#histoire">NOTRE HISTOIRE</a></li>
+        <li><a href="#carouselJeux">LE BAR</a></li>
+        <li><a href="#infos">INFO</a></li>   
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+		        	
+		        </header>
 
 <!--beer section-->
 <section id="bieres" class="container-fluid beer">
@@ -97,12 +94,12 @@
 			  </div>			
 			</div>
 			<p class="col-xs-offset-2 col-xs-6 beer_size">sm​ (25cl)​ 3.50€​ // md​ (50cl)​ 6.50€​ // ​lg​ (1L)​ 11.50€</p>
-			<p class="col-xs-offset-7 col-xs-4 other_choice">Et si vous n'aimez pas...</p>
+			<p class="col-xs-offset-7 col-xs-4 other_choice"><em>Et si vous n'aimez pas...</em></p>
 
 			
 		</div>
 		<article class="col-md-3 hidden-xs hidden-sm beer-picture">
-			<img class="photos_de_biere" src="images/biere1.jpg" alt="photo de biere"/>	
+			<img class="photos_de_biere img-responsive img-rounded" src="images/biere1.jpg" alt="photo de biere"/>	
 		</article>
 		
 	</div>
@@ -245,6 +242,7 @@
                         </p>
                     </div>
                 </div>
+
                 <div class ="col-lg-3 pictures">
                     <div class="row">
                         <a target="_blank" href="http://www.hostingpics.net" tit le="Hebergeur d'image"><img src="https://img11.hostingpics.net/pics/286988nicolas200200.jpg" class="img-circle" border="0" alt="Hebergeur d'image" /></a>
