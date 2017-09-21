@@ -59,69 +59,67 @@
 		        </header>
 
 <!--beer section-->
-<section id="bieres" class="container-fluid beer">
-	<div class="row general_beer">
-		<div class="row beer_map col-sm-offset-1 col-sm-8 ">
-			<h2 class="col-xs-9 section_title">LES E'MOUSSE'TILLANTES</h2>
-			<div class=" row col-xs-offset-1 col-xs-10 beer_list ">
-			  <div class="row list_1">
-				<ul class="col-xs-6 beer-blondes">
-					<li class="title-beer">Blondes</li>
-					<li class="blondes_list">Le Fou Allier</li>
-					<li class="blondes_list">Le Mange Soif</li>
-					<li class="blondes_list">La Roteuse</li>
-				</ul>
-	
-				<ul class="col-xs-6 beer-ambrees">
-					<li class="title-beer">Ambrées</li>
-				    <li class="ambrees_list">La Mise en Biére</li>
-				    <li class="ambrees_list">L'Harouquine</li>
-				    <li class="ambrees_list">La Tramblay</li>
-				</ul>
-			  </div>
-			  <div class="row list_2">	
-				<ul class="col-xs-6 beer-blanches">
-					<li class="title-beer">Blanches</li>
-				    <li class="blanches_list">La Grokochon</li>
-				    <li class="blanches_list">La Loosehead</li>
-				</ul>
-
-				<ul class="col-xs-6 beer-brunes">
-					<li class="title-beer">Brunes</li>
-				    <li class="brunes_list">La Mort Subite</li>
-				    <li class="brunes_list">La Peautagée</li>
-				</ul>
-			  </div>			
-			</div>
-			<p class="col-xs-offset-2 col-xs-6 beer_size">sm​ (25cl)​ 3.50€​ // md​ (50cl)​ 6.50€​ // ​lg​ (1L)​ 11.50€</p>
-			<p class="col-xs-offset-7 col-xs-4 other_choice"><em>Et si vous n'aimez pas...</em></p>
-
-			
-		</div>
-
-		<article class="col-md-3 hidden-xs hidden-sm beer-picture">
-			<img class="photos_de_biere img-responsive img-rounded" src="images/biere1.jpg" alt="photo de biere"/>	
-
-		</article>
-		
-	</div>
-	
-</section> 
+<section class="container-fluid beer" id="bières">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="row">
+                        <h2 class="col-md-offset-1 titleBeer">LES E'MOUSSE'TILLANTES</h2>
+                    </div>
+                    <div class="row">
+                        <p class="col-md-offset-6 beerSize">sm​ (25cl)​ 3.50€​ // md​ (50cl)​ 6.50€​ // ​lg​ (1L)​ 11.50€</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-2">
+                            <h3>Blondes</h3>
+                            <ul>
+                                <li>// Le Fou Allier //</li>
+                                <li>// Le Mange Soif //</li>
+                                <Li>// La Roteuse //</Li>
+                            </ul>
+                            <h3>Brunes</h3>
+                            <ul>
+                                <li>// La Mort Subite //</li>
+                                <li>// La Peautagée //</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Ambrées</h3>
+                            <ul>
+                                <li>// La Mise en Biére //</li>
+                                <li>// L'Harouquine //</li>
+                                <Li>// La Tramblay //</Li>
+                            </ul>
+                            <h3>Blanches</h3>
+                            <ul>
+                                <li>// La Grokochon //</li>
+                                <li>// La Loosehead //</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="col-md-offset-6 comm1">Et si vous ne buvez pas de bière...</p>
+                    </div>
+                </div>
+                <div class="col-md-3 hidden-xs hidden-sm beerPicture">
+                    <img class="photos_de_biere img-responsive" src="images/biere1.jpg" alt="photo de biere"/>
+                </div>
+            </div>
+        </section>
 <!--charlotte-->
 
-<section class="container-fluid comptoir">
+<section class="container-fluid comptoir" id="auComptoir">
     <div class="row">
-        <div class="col-sm-3 hidden-xs">
-            <img src="images/cocktail2.jpg" class="img-responsive cocktails" />
+        <div class="col-md-3 hidden-xs hidden-sm cocktails">
+            <img src="images/cocktail2.jpg" class="img-responsive" />
         </div>
-        <div class="col-sm-9">
+        <div class="col-md-9">
             <div class="row">
-                <p class="col-sm-6 title1">Vous pouvez aussi choisir...</p>
-                <p class="col-sm-6 title2">Au comptoir</p>
+                <p class="col-md-6 comm2">Vous pouvez aussi choisir...</p>
+                <h2 class="col-md-6 title2">Au comptoir</h2>
             </div>
 
             <div class="row">   
-                <div class="col-sm-4 carte">
+                <div class="col-md-4 carte">
                     <h3>Cocktails <span class="price">7€</span></h3>
                         <ul>
                             <li><span>// PHP //</span> Pinault / Hydromel / Porto</li>
@@ -131,14 +129,14 @@
                             <li><span>// GIT //</span> Gin Tonic</li>
                         </ul>
                 </div>
-                <div class="col-sm-4 carte">
+                <div class="col-md-4 carte">
                      <h3>Softs <span class="price">3€</span></h3>
                         <ul>
                             <li><span>// Soda //</span><br/>Coca // Orangina // Sprite // Limonade</li><br/>
                             <li><span>// Jus de fruits //</span><br/>Orange // Banane // Poire // Pomme // Raisin // Pêche // Fraise // Abricot</li>
                         </ul>
                 </div>
-                <div class="col-sm-4 carte">
+                <div class="col-md-4 carte">
                     <h3>Cocktails sans alcool <span class="price">5€</span></h3>
                     <ul>
                         <li><span>// Atom //</span> Abricot / Orange / Ananas</li>
@@ -215,13 +213,13 @@
 
         <div class ="row background-image">
 
-            <div class ="col-lg-12"></div>
+            <div class ="col-md-12"></div>
         </div>
 
         <div class ="row staff">
 
 
-                <div class ="col-lg-3 pictures">
+                <div class ="col-md-3 pictures">
                     <div class="row">
                         <a target="_blank" href="http://www.hostingpics.net" title="Hebergeur d'image"><img src="https://img11.hostingpics.net/pics/935157sylvain200200.jpg" class="img-circle" border="0" alt="Hebergeur d'image" /></a>
                     </div>
@@ -230,7 +228,7 @@
                     </div>
                 </div>
 
-                <div class ="col-lg-6">
+                <div class ="col-md-6">
                     <div class="row">
                         <h1 class="title">Notre histoire...</h1>
                     </div>
@@ -241,7 +239,7 @@
                     </div>
                 </div>
 
-                <div class ="col-lg-3 pictures">
+                <div class ="col-md-3 pictures">
                     <div class="row">
                         <a target="_blank" href="http://www.hostingpics.net" tit le="Hebergeur d'image"><img src="https://img11.hostingpics.net/pics/286988nicolas200200.jpg" class="img-circle" border="0" alt="Hebergeur d'image" /></a>
                     </div>
@@ -257,13 +255,13 @@
 
         <div class ="row pratik">
 
-            <div class ="col-lg-4"><strong>Ouverture<br/>De 18h à 02h<br/>Fermé le lundi<br/>HAPPY HOURS de 18h à 20h</strong><br/>
+            <div class ="col-md-4"><strong>Ouverture<br/>De 18h à 02h<br/>Fermé le lundi<br/>HAPPY HOURS de 18h à 20h</strong><br/>
             </div>
 
-            <div class ="col-lg-4"><strong>Wild Bar<br/>1 avenue du champs de Mars<br/>45000 ORLEANS<br/>02 38 69 80 80 / www.wildbar.fr / staff@wildbar.fr</strong>
+            <div class ="col-md-4"><strong>Wild Bar<br/>1 avenue du champs de Mars<br/>45000 ORLEANS<br/>02 38 69 80 80 / www.wildbar.fr / staff@wildbar.fr</strong>
             </div>
 
-            <div class ="col-lg-4">
+            <div class ="col-md-4">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d21401.533938706823!2d1.8941780000000001!3d47.893974!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e4e5268a751659%3A0x2fea9d6d51fe0564!2s1+Avenue+du+Champ+de+Mars%2C+45100+Orl%C3%A9ans%2C+France!5e0!3m2!1sfr!2sfr!4v1505489175706"
                         width="200" height="200" frameborder="0" style="border:0" allowfullscreen>
                 </iframe>
@@ -273,7 +271,7 @@
 
         <div class ="row dev">
 
-            <div class ="col-lg-12"><strong>Site développé par Beerman avec la collaboration du Staff</strong>
+            <div class ="col-md-12"><strong>Site développé par Beerman avec la collaboration du Staff</strong>
             </div>
 
         </div>

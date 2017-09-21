@@ -37,12 +37,6 @@
     top: 93%;
 }
 
-.container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: 0px;
-    margin-left: -16px;
-}
 
 .navbar {
     
@@ -67,52 +61,43 @@
 
 .beer {
 	background-color: #737373;
+	background-image: url("images/tileable-wood.png");
 }
 
-.beer_list {
-	background-color: #737373;
-	margin-top: 30px;
-
+.beer h3 {
+  color: white;
+  font-size: 2vw;
+  text-align: left;
 }
 
-.section_title {
-	font-size: 3em;
-	color: #D1860D;
-	font-weight: bold;
-  margin-left: -100px;
-  font-family: 'Comfortaa', cursive;
+.titleBeer {
+	font-size: 3vw;
+  color: white;
 }
 
-.title-beer {
-	font-size: 2em;
+.beer ul {
+    font-family: 'Indie Flower', cursive;
+}
+
+
+.beer li {
 	list-style-type: none;
-	color: #333025;
-	font-weight:bold;
 }
 
-.blondes_list, .ambrees_list, .blanches_list, .brunes_list{
-	font-size: 1.5em;
-	list-style-type: none;
-	color: #333025;
-  margin-left: 20px;
-  font-family: 'Indie Flower', cursive;
+.beerSize {
+	font-size: 1.5vw;
+  color: #1b100d;
 }
 
-.beer_size {
-	font-size: 1.3em;
-	color: #333025;
-	margin-top: 20px
+.comm1 {
+	color: #cb5909;
+  font-size: 2vw;
+  font-style: italic;
 }
 
-.other_choice {
-	font-size: 2em;
-	color: #333025;
-	margin-left: 520px;
-	margin-top: 20px;
-}
-
-.beer-picture {
-  padding: 0px;
+.beerPicture {
+	padding-left: 0;
+	padding-right: 0;
 }
 
 @media all and (max-width: 1024px)
@@ -151,17 +136,19 @@
 
 
 .comptoir {
-  background-color: #6a2c0c;
+  background-image: url("images/dark_wood.png");
 }
 
-.comptoir ul {
-  color: #f18e1c;
+.cocktails {
+	padding-left: 0;
+	padding-right: 0;
 }
 
-.title1 {
+.comm2 {
   color: #cb5909;
   font-size: 2vw;
   top: 20px;
+  font-style: italic;
 }
 
 .title2 {
@@ -177,7 +164,7 @@
 }
 
 .comptoir h3 {
-  color: #1b100d;
+  color: white;
   font-size: 2vw;
   text-align: left;
 }
@@ -188,6 +175,8 @@
 
 .comptoir ul {
   list-style-type: none;
+  font-size: 1vw;
+  color: #f18e1c;
 }
 
 .comptoir  ul span {
@@ -195,20 +184,18 @@
   color: #cb5909;
 }
 
-.comptoir ul {
-  font-size: 1vw;
-}
-
 .photosBar h3 {
   font-size: 40px;
-  background-color: #cb5909;
-  border-radius: 20px;
+	background-image: url("images/dark_wood.png");
+	opacity: 0.9;
+	color: white;
 }
 
 .photosBar p {
   font-size: 25px;
-  background-color: #f18e1c;
-  border-radius: 20px;
+	background-image: url("images/dark_wood.png");
+	opacity: 0.9;
+	color: white;
 }
 
 .jeuxHidden {
