@@ -250,41 +250,23 @@
 }
 
 /*chris*/
-footer {
-    background-color: white;
-    color: black;
-    padding: 10px;
+
+
+.histoire {
+  background-color: rgba(255, 255, 255, 0.9);
+  background-image: url("https://img11.hostingpics.net/pics/782862bois650500.jpg");
 }
-
-/*.nh {
-    text-align: center;
-    margin-right: -15px;
-    margin-left: -15px;
-    background-color: #D1860D;
-    color: darkslategrey;
-    font-size: 3em;
-    padding: 20px;
-}*/
-
-.notrehistoire {
-    color: #D1860D;
-    font-family: 'Comfortaa', cursive;
-    font-size: 3em;
-    font-weight: bold;
-}
-
-
 
 .staff {
-    vertical-align: middle;
-    text-align: center;
-    margin-right: -15px;
-    margin-left: -15px;
-    padding: 30px;
-    background-image: url("https://img11.hostingpics.net/pics/782862bois650500.jpg"); 
+  vertical-align: middle;
+  text-align: center;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding: 30px; 
 }
 
 .staff .title {
+  font-size: 3vw;
   text-transform: uppercase;
   color: #cb5909;
 }
@@ -293,37 +275,62 @@ footer {
   color: #f18e1c;
 }
 
+@media all and (max-width:720px) {
+
 .texteHistoire {
   background-color: rgba(255, 255, 255, 0.6);
   text-align: justify;
-  padding: 30px;
-  border-radius: 30px;
+  vertical-align: middle;
+  padding: 0px;
+  color: #1b100d;
+  margin: 0px;
+  }
+}
+
+.texteHistoire {
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: justify;
+  vertical-align: middle;
+  padding: 50px;
   color: #1b100d;
 }
 
 .pictures {
-  top: 120px;
+  top: 30px;
 }
 
+.photo_sylvain {
+  margin-left: 25px;
+} 
+
+.photo_nicolas {
+  margin-left: 25px;
+}
+
+.footer {
+  color: white;
+  padding: 10px;
+}
 .pratik {
-    vertical-align: middle;
-    text-align: center;
-    margin-right: -15px;
-    margin-left: -15px;
-    background-color: white;
-    color: #737373;
-    padding: 10px;
+  vertical-align: middle;
+  text-align: center;
+  margin-right: -15px;
+  margin-left: -15px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  top: 30px;
 }
 
 .dev {
-    text-align: center;
-    margin-right: -15px;
-    margin-left: -15px;
-    background-color: #333025;
-    color: white;
-    padding: 10px;
+  text-align: center;
+  margin-right: -15px;
+  margin-left: -15px;
+  background-color: #cb5909;
+  color: white;
+  padding: 10px;
 }
 
 
-/*background-image: url("https://img11.hostingpics.net/pics/782862bois650500.jpg");*/
+
 
