@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
 
 .home {
   position: relative;
@@ -85,6 +86,7 @@
 .titleBeer {
 	font-size: calc(2.5vw + 10px);
   color: #f18e1c;
+  font-family: 'Cabin Sketch', cursive;
 }
 
 .beer ul {
@@ -190,6 +192,7 @@
   text-align: right;
   top: 20px;
   padding-right: 30px;
+  font-family: 'Cabin Sketch', cursive;
 }
 
 .carte {
@@ -298,6 +301,7 @@ footer {
 .staff .title {
   text-transform: uppercase;
   color: #cb5909;
+  font-family: 'Cabin Sketch', cursive;
 }
 
 .staff h3 {
