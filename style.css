@@ -3,6 +3,10 @@
 
 .home {
   position: relative;
+  padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: -16px;
 }
 
 .background_picture {
@@ -37,91 +41,103 @@
     top: 93%;
 }
 
-.container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: 0px;
-    margin-left: -16px;
-}
-
 .navbar {
     
     border: 1px solid transparent;
-    background-color: #333025;
+    background-color: black;
     margin-bottom: 0px;
     border-radius: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#navbar {
+  overflow: hidden;
+  z-index: 1000;
 }
 
 
-.navbar-nav > li {
-    float: left;
-    font-size: 1.2vw;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
     color: #D1860D;
     background-color: transparent;
-    border-bottom: 2px solid #D1860D;
-    padding-bottom: 5px;
 }
 
 .beer {
-	background-color: #737373;
+	background-color: black;
+	background-image: url("images/tileable-wood.png");
 }
 
-.beer_list {
-	background-color: #737373;
-	margin-top: 30px;
+.beer h3 {
+  color: #cb5909;
+  font-size: 2vw;
+  text-align: left;
 
 }
 
-.section_title {
-	font-size: 3em;
-	color: #D1860D;
-	font-weight: bold;
-  margin-left: -100px;
-  font-family: 'Comfortaa', cursive;
+.titleBeer {
+	font-size: 3vw;
+  color: #f18e1c;
 }
 
-.title-beer{
-	font-size: 2em;
+.beer ul {
+    font-family: 'Indie Flower', cursive;
+}
+
+
+.beer li {
 	list-style-type: none;
-	color: #333025;
-	font-weight:bold;
+  color: white;
+  font-size: 2vw;
+  font-weight: bold;
 }
 
-.blondes_list, .ambrees_list, .blanches_list, .brunes_list{
-	font-size: 1.5em;
-	list-style-type: none;
-	color: #333025;
-  margin-left: 20px;
+.beerSize {
+	font-size: 1.5vw;
+  color: #1b100d;
+}
+
+.comm1 {
+	color: #f18e1c;
+  font-size: 2vw;
+  font-style: italic;
   font-family: 'Indie Flower', cursive;
 }
 
-.beer_size {
-	font-size: 1.3em;
-	color: #333025;
-	margin-top: 20px
+.beerPicture {
+	padding-left: 0;
+	padding-right: 0;
 }
 
-.other_choice {
-	font-size: 2em;
-	color: #333025;
-	margin-left: 520px;
-	margin-top: 20px;
-}
-.beer-picture {
-  padding: 0px;
-}
-
-@media all and (max-width: 1024px)
+@media all and (max-width: 720px)
 {
   .logo {
   position: absolute;
   text-align: center;
-  top: 10%;
+  top: 15%;
   left: 17%;
   }
+
+  .background_picture {
+  opacity: 0.7;
+  position: relative;
+  height: 175px;
+}
 
   .happy_hour_picture {
   position: absolute;
@@ -135,7 +151,7 @@
     text-align: center;
     color: white;
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 1.9vw;
     border-radius: 10px;
     background-color: rgb(98,94,91);
     padding: 2px;
@@ -143,101 +159,98 @@
     left: 2%;
   }
 
+  .navbar-nav > li {
+    margin-left: 15px;
+  }
+
+  .navbar {
+    
+    border: 1px solid transparent;
+    background-color: black;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    }
+
 }
+
 
 /*charlotte*/
 
+
 .comptoir {
-  margin-left: -15px;
-  margin-right: -15px;
-  background-color: #333025;
+  background-image: url("images/dark_wood.png");
 }
 
-.intro {
-  margin-top: 20px;
-  margin-bottom: 40px;
-  font-size: 2em;
-  color: white;
+.cocktails {
+	padding-left: 0;
+	padding-right: 0;
 }
 
-.sectionTitle {
-  font-size: 3em;
-  font-weight: bold;
+.comm2 {
+  color: #f18e1c;
+  font-size: 2vw;
+  top: 20px;
+  font-family: 'Indie Flower', cursive;
+  font-style: italic;
+}
+
+.title2 {
+  color: #cb5909;
   text-transform: uppercase;
-  margin-bottom: 40px;
-  margin-top: 30px;
-  color: #D1860D;
-  float: right;
-  font-family: 'Comfortaa', cursive;
+  font-size: 3vw;
+  text-align: right;
+  top: 20px;
+  padding-left: 0px;
 }
 
-.menuBoissons .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    color: white;
-    cursor: default;
-    background-color: grey;
-    text-transform: uppercase;
+.marginDroite {
+  margin-right: 0;
+  margin-left: 0;
 }
 
-.menuBoissons .nav-bar {
-  float: left;
+.carte {
+  top: 40px;
+  padding: 0;
 }
 
-.menuBoissons a {
-    color: grey;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.texteCarte h3 {
-    font-size: 30px;
-    color: #fba858;
-    background-color: grey;
-    text-transform: uppercase;
-    padding: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+.comptoir h3 {
+  color: white;
+  font-size: 2vw;
+  text-align: left;
 }
 
 .price {
-  float: right;
+  color: #cb5909;
 }
 
-.texteCarte ul {
+.comptoir ul {
   list-style-type: none;
+  font-size: 1vw;
+  color: #f18e1c;
+  font-family: 'Indie Flower', cursive;
 }
 
-.texteCarte {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 20px;
-  line-height: 1.42857143;
-  color: white;
-}
-
-.texteCarte span {
-  color: grey;
-  font-size: 30px;
-  text-transform: uppercase;
-}
-
-.photoCocktail {
-  background-image: url('images/cocktail1.jpg');
-  background-repeat: no-repeat;
-  height: 550px;
-}
-
-.photosBar {
-  margin-left: -15px;
-  margin-right: -15px;
+.comptoir  ul span {
+  font-size: 1.5vw;
+  color: #cb5909;
 }
 
 .photosBar h3 {
   font-size: 40px;
+	background-image: url("images/dark_wood.png");
+	opacity: 0.9;
+	color: white;
 }
 
 .photosBar p {
-  font-size: 25px
+  font-size: 25px;
+	background-image: url("images/dark_wood.png");
+	opacity: 0.9;
+	color: white;
 }
 
 .jeuxHidden {
@@ -253,7 +266,6 @@
 
 
 .histoire {
-  background-color: rgba(255, 255, 255, 0.9);
   background-image: url("https://img11.hostingpics.net/pics/782862bois650500.jpg");
 }
 
@@ -268,23 +280,11 @@
 .staff .title {
   font-size: 3vw;
   text-transform: uppercase;
-  color: #cb5909;
+  color: #f18e1c;
 }
 
 .staff h3 {
   color: #f18e1c;
-}
-
-@media all and (max-width:720px) {
-
-.texteHistoire {
-  background-color: rgba(255, 255, 255, 0.6);
-  text-align: justify;
-  vertical-align: middle;
-  padding: 0px;
-  color: #1b100d;
-  margin: 0px;
-  }
 }
 
 .texteHistoire {
@@ -304,7 +304,7 @@
 } 
 
 .photo_nicolas {
-  margin-left: 25px;
+  margin-left: 10px;
 }
 
 .footer {
@@ -320,6 +320,15 @@
   color: white;
   padding: 10px;
   top: 30px;
+  font-weight: bold;
+}
+
+.ouverture {
+  top: 50px;
+}
+
+.adresse {
+  top: 50px;
 }
 
 .dev {
@@ -331,6 +340,52 @@
   padding: 10px;
 }
 
+@media all and (max-width:720px) {
+
+.texteHistoire {
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: justify;
+  vertical-align: middle;
+  padding: 40px;
+  color: #1b100d;
+  height: 200px;
+  overflow: scroll;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  }
+
+.photo_sylvain {
+  margin-left: 40px;
+  width: 150px;
+  height: auto;
+  }
+
+.photo_nicolas {
+  margin-left: 40px;
+  width: 150px;
+  height: auto;
+  }
+
+.pictures {
+  top: 0px;
+  }
+
+.staff .title {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  background: black;
+  }
+
+.ouverture {
+  top: 0px;
+  }
+
+.adresse {
+  top: 0px;
+  }
+
+}
 
 
 
