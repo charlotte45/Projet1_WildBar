@@ -79,53 +79,51 @@
 }
 
 .beer {
-	background-color: #737373;
-  z-index: 0;
+	background-color: black;
+	background-image: url("images/tileable-wood.png");
 }
 
-.beer_list {
-	margin-top: 30px;
-
-}
-
-.section_title {
-	font-size: 3em;
-	color: #D1860D;
-	font-weight: bold;
-  margin-left: -100px;
-  font-family: 'Comfortaa', cursive;
-}
-
-.title-beer {
-	font-size: 2em;
-	list-style-type: none;
-	color: #333025;
-	font-weight:bold;
-}
-
-.blondes_list, .ambrees_list, .blanches_list, .brunes_list{
-	font-size: 1.5em;
-	list-style-type: none;
-	color: #333025;
-  margin-left: 20px;
+.beer h3 {
+  color: #cb5909;
+  font-size: 3vw;
+  text-align: left;
   font-family: 'Indie Flower', cursive;
+
+}
+.beer_list {
+  margin-top: -30px;
 }
 
-.beer_size {
-	font-size: 1.3em;
-	color: #333025;
-	margin-top: 20px
+.titleBeer {
+	font-size: 3vw;
+  color: #f18e1c;
 }
 
-.other_choice {
-	font-size: 2em;
-	color: #333025;
-	margin-left: 520px;
-	margin-top: 20px;
+.beer ul {
+    font-family: 'Indie Flower', cursive;
 }
 
-.beer-picture {
-  padding: 0px;
+
+.beer li {
+	list-style-type: none;
+  color: white;
+  font-size: 1.7vw;
+  font-weight: bold;
+}
+
+.beerSize {
+	color: #f18e1c;
+  font-size: 2vw;
+  font-style: italic;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
+
+.comm1 {
+	color: #f18e1c;
+  font-size: 2vw;
+  font-style: italic;
+  font-family: 'Indie Flower', cursive;
 }
 
 @media all and (max-width: 720px)
@@ -186,17 +184,20 @@
 
 
 .comptoir {
-  background-color: #6a2c0c;
+  background-image: url("images/dark_wood.png");
 }
 
-.comptoir ul {
+.cocktails {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.comm2 {
   color: #f18e1c;
-}
-
-.title1 {
-  color: #cb5909;
   font-size: 2vw;
   top: 20px;
+  font-family: 'Indie Flower', cursive;
+  font-style: italic;
 }
 
 .title2 {
@@ -205,14 +206,25 @@
   font-size: 3vw;
   text-align: right;
   top: 20px;
+  padding-right: 30px;
+}
+
+.partieDroite {
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .carte {
   top: 40px;
+  padding: 0;
+}
+
+.cartes {
+  padding: 0;
 }
 
 .comptoir h3 {
-  color: #1b100d;
+  color: white;
   font-size: 2vw;
   text-align: left;
 }
@@ -223,37 +235,49 @@
 
 .comptoir ul {
   list-style-type: none;
+  font-size: 1.3vw;
+  color: #f18e1c;
+  font-family: 'Indie Flower', cursive;
 }
 
 .comptoir  ul span {
-  font-size: 1.5vw;
+  font-size: 1.7vw;
   color: #cb5909;
-}
-
-.comptoir ul {
-  font-size: 1vw;
 }
 
 .photosBar h3 {
   font-size: 40px;
-  background-color: #cb5909;
-  border-radius: 20px;
+	background-image: url("images/dark_wood.png");
+	opacity: 0.9;
+	color: white;
 }
 
-.photosBar p {
+.texteBandeau {
   font-size: 25px;
-  background-color: #f18e1c;
-  border-radius: 20px;
+	background-image: url("images/dark_wood.png");
+	opacity: 0.9;
+	color: white;
 }
 
 .jeuxHidden {
-  background-color: grey;
+  background-color: black;
   color: white;
   text-align: center;
+  font-size: 3vw;
+  margin-bottom: 0;
   padding: 10px;
-  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
   text-transform: uppercase;
 }
+
+@media all and (max-width: 992px) {
+  .carte {
+    top: 0px;
+  }
+
+}
+
+
 
 /*chris*/
 footer {
