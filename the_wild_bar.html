@@ -12,7 +12,7 @@
 
 	</head>
 
-		<body>
+		<body onscroll="myFunction()">
 
 		        <header>
 
@@ -23,12 +23,11 @@
                               </p>
                               <div class="row happy_hour_picture">
                                   <img class="col-md-offset-5 col-md-5 col-xs-offset-9 col-xs-3 img-responsive" src="images/happyhour6.png" alt="happy hour"> 
-                              </div>
-                              <p class="col-md-offset-4 col-md-4 col-xs-offset-3 col-xs-6 schedule">Du mardi au dimanche//De 18H à 2H</p>      
+                              </div>     
                          </div>
                          <!--navbar-->
 
-<nav class="navbar navbar-default">
+<nav id="navbar" class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -57,11 +56,11 @@
 
 		        	
 		        </header>
-
+<div class="content">
 <!--beer section-->
 <section class="container-fluid beer" id="bières">
             <div class="row">
-                <div class="col-md-9">
+                <div class="col-md-9 partieDroite">
                     <div class="row">
                         <h2 class="col-md-offset-1 titleBeer">LES E'MOUSSE'TILLANTES</h2>
                     </div>
@@ -114,7 +113,7 @@
         </div>
         <div class="col-md-9">
             <div class="row">
-                <p class="col-md-6 comm2">Vous pouvez aussi choisir...</p>
+                <p class="col-md-6 comm2">...Vous pouvez aussi choisir...</p>
                 <h2 class="col-md-6 title2">Au comptoir</h2>
             </div>
 
@@ -277,11 +276,13 @@
         </div>
 
     </footer>
+</div>
 
 
 
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <script src="index.js"></script>
 
         </body>
 
