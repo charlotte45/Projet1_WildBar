@@ -283,7 +283,7 @@
 
 
 .histoire {
-  background-image: url("https://img11.hostingpics.net/pics/782862bois650500.jpg");
+  background-image: url("images/dark_wood.png");
 }
 
 .staff {
@@ -298,6 +298,7 @@
   font-size: 3vw;
   text-transform: uppercase;
   color: #f18e1c;
+
 }
 
 .staff h3 {
@@ -325,16 +326,17 @@
 }
 
 .footer {
-  color: white;
+  color: #f18e1c;
   padding: 10px;
 }
+
 .pratik {
+  color: #f18e1c;
   vertical-align: middle;
   text-align: center;
   margin-right: -15px;
   margin-left: -15px;
   background-color: black;
-  color: white;
   padding: 10px;
   top: 30px;
   font-weight: bold;
@@ -352,7 +354,7 @@
   text-align: center;
   margin-right: -15px;
   margin-left: -15px;
-  background-color: #cb5909;
+  background-color: black;
   color: white;
   padding: 10px;
 }
@@ -363,25 +365,15 @@
   background-color: rgba(255, 255, 255, 0.6);
   text-align: justify;
   vertical-align: middle;
-  padding: 40px;
+  padding: 10px;
   color: #1b100d;
-  height: 200px;
+  height: 100px;
+  line-height: 1;
   overflow: scroll;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   }
 
-.photo_sylvain {
-  margin-left: 40px;
-  width: 150px;
-  height: auto;
-  }
-
-.photo_nicolas {
-  margin-left: 40px;
-  width: 150px;
-  height: auto;
-  }
 
 .pictures {
   top: 0px;
@@ -390,8 +382,19 @@
 .staff .title {
   font-size: 2em;
   text-transform: uppercase;
-  color: white;
-  background: black;
+  color: #f18e1c;
+  }
+
+.photo_sylvain {
+  margin-left: 0px;
+  max-width: 20%;
+  height: auto;
+  } 
+
+.photo_nicolas {
+  margin-left: 200px;
+  max-width: 20%;
+  height: auto;
   }
 
 .ouverture {
@@ -402,7 +405,8 @@
   top: 0px;
   }
 
+.histoire {
+  background-image: url("images/dark_wood.png");
 }
-
 
 
