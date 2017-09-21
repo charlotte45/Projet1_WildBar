@@ -27,20 +27,6 @@
   right: 1%;
 }
 
-
-.schedule {
-    position: absolute;
-    z-index: 1;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-size: 1.3vw;
-    border-radius: 10px;
-    background-color: rgb(98,94,91);
-    padding:10px;
-    top: 93%;
-}
-
 .navbar {
     
     border: 1px solid transparent;
@@ -81,11 +67,13 @@
 .beer {
 	background-color: black;
 	background-image: url("images/tileable-wood.png");
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .beer h3 {
   color: #cb5909;
-  font-size: 3vw;
+  font-size: calc(2.5vw + 10px);
   text-align: left;
   font-family: 'Indie Flower', cursive;
 
@@ -95,7 +83,7 @@
 }
 
 .titleBeer {
-	font-size: 3vw;
+	font-size: calc(2.5vw + 10px);
   color: #f18e1c;
 }
 
@@ -107,13 +95,13 @@
 .beer li {
 	list-style-type: none;
   color: white;
-  font-size: 1.7vw;
+  font-size: calc(1.2vw + 10px);
   font-weight: bold;
 }
 
 .beerSize {
 	color: #f18e1c;
-  font-size: 2vw;
+  font-size: calc(2vw + 10px);
   font-style: italic;
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
@@ -121,9 +109,18 @@
 
 .comm1 {
 	color: #f18e1c;
-  font-size: 2vw;
+  font-size: calc(2vw + 10px);
   font-style: italic;
   font-family: 'Indie Flower', cursive;
+}
+
+.beerPicture {
+
+}
+
+.image_beer {
+  float: right;
+  margin-right: -15px;
 }
 
 @media all and (max-width: 720px)
@@ -145,20 +142,6 @@
   position: absolute;
   top: 60%;
   right: 1%;
-  }
-
-  .schedule {
-    position: absolute;
-    z-index: 1;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-size: 1.9vw;
-    border-radius: 10px;
-    background-color: rgb(98,94,91);
-    padding: 2px;
-    top: 91%;
-    left: 2%;
   }
 
   .navbar-nav > li {
@@ -194,7 +177,7 @@
 
 .comm2 {
   color: #f18e1c;
-  font-size: 2vw;
+  font-size: calc(2vw + 10px);
   top: 20px;
   font-family: 'Indie Flower', cursive;
   font-style: italic;
@@ -203,19 +186,14 @@
 .title2 {
   color: #cb5909;
   text-transform: uppercase;
-  font-size: 3vw;
+  font-size: calc(2.5vw + 10px);
   text-align: right;
   top: 20px;
   padding-right: 30px;
 }
 
-.partieDroite {
-  margin-right: 0;
-  margin-left: 0;
-}
-
 .carte {
-  top: 40px;
+  top: 60px;
   padding: 0;
 }
 
@@ -225,8 +203,9 @@
 
 .comptoir h3 {
   color: white;
-  font-size: 2vw;
+  font-size: calc(2vw + 10px);
   text-align: left;
+  font-family: 'Indie Flower', cursive;
 }
 
 .price {
@@ -235,14 +214,16 @@
 
 .comptoir ul {
   list-style-type: none;
-  font-size: 1.3vw;
+  font-size: calc(0.5vw + 10px);
   color: #f18e1c;
-  font-family: 'Indie Flower', cursive;
+  padding: 0;
 }
 
 .comptoir  ul span {
-  font-size: 1.7vw;
+  font-size: calc(1.2vw + 10px);
   color: #cb5909;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
 }
 
 .photosBar h3 {
