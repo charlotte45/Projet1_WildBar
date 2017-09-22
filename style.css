@@ -38,6 +38,7 @@
     padding-left: 0px;
     margin-right: 0px;
     margin-left: 0px;
+    min-height: 60px;
 }
 
 #navbar {
@@ -58,6 +59,7 @@
 
 .navbar-default .navbar-nav > li > a {
   color: white;
+  padding-top: 20px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -70,17 +72,31 @@
 	background-image: url("images/tileable-wood.png");
   margin-left: 0;
   margin-right: 0;
+  z-index: 1;
 }
 
 .beer h3 {
-  color: #cb5909;
+  color: white;
   font-size: calc(2.5vw + 10px);
   text-align: left;
   font-family: 'Indie Flower', cursive;
-
 }
+
 .beer_list {
-  margin-top: -30px;
+  padding-left: 30px;
+}
+
+.beer_list .slash {
+  font-size: calc(1.3vw + 10px);
+  color: #cb5909;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
+
+.beer_list .price {
+  font-size: calc(2vw + 10px);
+  color: #f18e1c;
+  font-family: 'Indie Flower', cursive;
 }
 
 .titleBeer {
@@ -90,34 +106,29 @@
 }
 
 .beer ul {
-    font-family: 'Indie Flower', cursive;
+  padding: 0;
 }
-
 
 .beer li {
 	list-style-type: none;
-  color: white;
-  font-size: calc(1.2vw + 10px);
-  font-weight: bold;
+  color: #f18e1c;
+  font-size: calc(1.1vw + 10px);
 }
 
 .beerSize {
-	color: #f18e1c;
+	color: white;
   font-size: calc(2vw + 10px);
-  font-style: italic;
   font-family: 'Indie Flower', cursive;
-  font-weight: bold;
+  top: 100px;
 }
 
 .comm1 {
-	color: #f18e1c;
+	color: white;
   font-size: calc(2vw + 10px);
   font-style: italic;
   font-family: 'Indie Flower', cursive;
-}
-
-.beerPicture {
-
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 .image_beer {
@@ -131,7 +142,9 @@
   position: absolute;
   text-align: center;
   top: 15%;
-  left: 17%;
+  margin-left: -40px;
+  left: 15%;
+  width: 310px;
   }
 
   .background_picture {
@@ -143,7 +156,8 @@
   .happy_hour_picture {
   position: absolute;
   top: 60%;
-  right: 1%;
+  right: 5%;
+  width: 380px;
   }
 
   .navbar-nav > li {
@@ -160,11 +174,25 @@
     padding-left: 0px;
     margin-right: 0px;
     margin-left: 0px;
+    min-height: 50px;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+  color: white;
+  padding-top: 15px;
+  }
+
+    .comm1 {
+      margin-top: 0px;
+      margin-bottom: 10px;
     }
 
 }
 
-
+.beers4 {
+  padding-right: 0;
+    padding-left: 0;
+}
 /*charlotte*/
 
 
@@ -259,6 +287,10 @@
     top: 0px;
   }
 
+  .beerSize {
+    top: 0;
+  }
+
 }
 
 
@@ -302,11 +334,11 @@
 }
 
 .photo_sylvain {
-  margin-left: 25px;
+  margin-left: 50px;
 } 
 
 .photo_nicolas {
-  margin-left: 10px;
+  margin-left: 40px;
 }
 
 .footer {
