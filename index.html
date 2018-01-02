@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Le Wild Bar</title>
+
+</head>
+
+<body onscroll="myFunction()">
+
+<header>
+
+    <div id="home" class="container-fluid home">
+        <img src="images/fond_biere_2.jpg" class="background_picture img-responsive"/>
+        <p class="logo row">
+            <img class="col-md-offset-2 col-md-8 col-xs-offset-4 col-xs-5 img-responsive" src="images/logowcs_new.png"
+                 alt="logo">
+        </p>
+        <div class="row happy_hour_picture">
+            <img class="col-md-offset-5 col-md-5 col-xs-offset-9 col-xs-3 img-responsive" src="images/happyhour6.png"
+                 alt="happy hour">
+        </div>
+    </div>
+    <!--navbar-->
+
+    <nav id="navbar" class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="#home">HOME<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#bieres">LES E'MOUSSE'TILLANTES</a></li>
+                    <li><a href="#auComptoir">AU COMPTOIR</a></li>
+                    <li><a href="#histoire">NOTRE HISTOIRE</a></li>
+                    <li><a href="#carouselJeux">LE BAR</a></li>
+                    <li><a href="#infos">INFO</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+</header>
+<div class="content">
+    <!--beer section-->
+    <section class="container-fluid beer" id="bieres">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="row">
+                    <h2 class="col-xs-offset-1 titleBeer">LES E'MOUSSE'TILLANTES</h2>
+                </div>
+                <div class="row beer_list">
+                    <p class="col-md-4 col-md-offset-0 col-xs-offset-2 beerSize"><span class="slash">// </span>SM
+                        (25cl)​ <span class="price">3.50€​</span><br/><span class="slash">// </span>MD (50cl)​ <span
+                                class="price">6.50€​</span><br/><span class="slash">// </span>LG (1L)​ <span
+                                class="price">11.50€</span></p>
+                    <div class="col-md-4 col-md-offset-0 col-xs-offset-2">
+                        <h3>Blondes</h3>
+                        <ul>
+                            <li><span class="slash">//</span> Le Fou Allier <span class="slash">//</span></li>
+                            <li><span class="slash">//</span> Le Mange Soif <span class="slash">//</span></li>
+                            <Li><span class="slash">//</span> La Roteuse <span class="slash">//</span></Li>
+                        </ul>
+                        <h3>Brunes</h3>
+                        <ul>
+                            <li><span class="slash">//</span> La Mort Subite <span class="slash">//</span></li>
+                            <li><span class="slash">//</span> La Peautagée <span class="slash">//</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-md-offset-0 col-xs-offset-2">
+                        <h3>Ambrées</h3>
+                        <ul>
+                            <li><span class="slash">//</span> La Mise en Bière <span class="slash">//</span></li>
+                            <li><span class="slash">//</span> L'Harouquine <span class="slash">//</span></li>
+                            <Li><span class="slash">//</span> La Tramblay <span class="slash">//</span></Li>
+                        </ul>
+                        <h3>Blanches</h3>
+                        <ul>
+                            <li><span class="slash">//</span> La Grokochon <span class="slash">//</span></li>
+                            <li><span class="slash">//</span> La Loosehead <span class="slash">//</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <p class="col-md-offset-4 col-xs-offset-1 comm1">Et si vous ne buvez pas de bière...</p>
+                </div>
+            </div>
+            <div class="col-md-3 hidden-xs hidden-sm beerPicture">
+                <img class="img-responsive image_beer" src="images/beer_picture2.jpg" alt="photo de biere"/>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid beers4">
+        <img src="images/4beers.jpg" class="hidden-sm hidden-md hidden-lg img-responsive">
+    </section>
+    <!--charlotte-->
+
+    <section class="container-fluid comptoir" id="auComptoir">
+        <div class="row">
+            <div class="col-md-3 hidden-xs hidden-sm cocktails">
+                <img src="images/cocktail3.jpg" class="img-responsive"/>
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <p class="col-md-6 comm2">...Vous pouvez aussi choisir...</p>
+                    <h2 class="col-md-6 title2">Au comptoir</h2>
+                </div>
+
+                <div class="row cartes">
+                    <div class="col-md-4 col-md-offset-0 col-xs-offset-1 carte">
+                        <h3>Cocktails <span class="price">7€</span></h3>
+                        <ul>
+                            <li><span>PHP //</span> Pinault / Hydromel / Porto</li>
+                            <li><span>CSS //</span> Calva / Sucre / Sirop de pomme</li>
+                            <Li><span>HTML //</span> Hydromel / Tequila / Martini / Liqueur</Li>
+                            <li><span>W3C //</span> Mélange de trois Whiskies / Cognac</li>
+                            <li><span>GIT //</span> Gin Tonic</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-md-offset-0 col-xs-offset-1 carte">
+                        <h3>Softs <span class="price">3€</span></h3>
+                        <ul>
+                            <li><span>Soda //</span><br/>Coca // Orangina // Sprite // Limonade</li>
+                            <br/>
+                            <li><span>Jus de fruits //</span><br/>Orange // Banane // Poire // Pomme // Raisin // <br/>Pêche
+                                // Fraise // Abricot
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-md-offset-0 col-xs-offset-1 carte">
+                        <h3>Cocktails 0% alcool <span class="price">5€</span></h3>
+                        <ul>
+                            <li><span>Atom //</span> Abricot / Orange / Ananas</li>
+                            <li><span>PHPStorm //</span> Poire / Pomme / Citron</li>
+                            <li><span>SublimText //</span> Soda / Banane / Fraise</li>
+                            <li><span>Vim //</span> Vanille / Lait / Miel</li>
+                            <li><span>Emacs //</span> Eau gazeuse / Menthe / Citron vert</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="photosBar" id="carouselJeux">
+        <p class="hidden-md hidden-lg jeuxHidden">Venez découvrir notre salle de jeux<br/>2 billards, 1 jeu de
+            fléchettes et 1 flipper !</p>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="images/bar1Web.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <div class="row">
+                            <h3 class="hidden-xs hidden-sm">Venez découvrir notre salle de jeux...</h3>
+                            <p class="hidden-xs hidden-sm texteBandeau">...composée de deux billards, d'un jeu de
+                                fléchettes et d'un flipper !</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/billards1Web.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <div class="row">
+                            <h3 class="hidden-xs hidden-sm">Venez découvrir notre salle de jeux...</h3>
+                            <p class="hidden-xs hidden-sm texteBandeau">...composée de deux billards, d'un jeu de
+                                fléchettes et d'un flipper !</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/flechettes1Web.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <div class="row">
+                            <h3 class="hidden-xs hidden-sm">Venez découvrir notre salle de jeux...</h3>
+                            <p class="hidden-xs hidden-sm texteBandeau">...composée de deux billards, d'un jeu de
+                                fléchettes et d'un flipper !</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+
+    <!--chris                                     SEULEMENT CETTE PARTIE-->
+
+    <section id="histoire" class="container-fluid histoire">
+
+        <div class="row">
+            <div class="staff">
+                <div class="col-md-3 hidden-xs">
+                    <div class="row">
+                        <img src="images/cerf.jpg"
+                             class="img-circle img-responsive center-block"/>
+                    </div>
+                    <div class="row">
+                        <h3 class="noms">sylvain</h3>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <h2 class="titleStaff text-center">Notre histoire...</h2>
+                    </div>
+                    <div class="row">
+                        <p class="texteHistoire">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.
+                            Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras
+                            elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin
+                            porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet
+                            erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim.
+                            Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum
+                            augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut
+                            augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                            cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas
+                            adipiscing ante non diam sodales hendrerit.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 hidden-xs">
+                    <div class="row">
+                        <img src="images/cerf.jpg"
+                             class="img-circle img-responsive center-block"/>
+                    </div>
+                    <div class="row">
+                        <h3 class="noms">nicolas</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer id="infos" class="container-fluid">
+
+        <div class="row pratik">
+
+            <div class="col-md-4 ouverture">
+                <div class="row">
+                    <strong><h4>Ouverture<br/>De 18h à 02h, fermé le lundi<br/><br/>HAPPY HOUR de 18h à 20h</h4>
+                    </strong><br/>
+                </div>
+                <div class="web">
+                    <a href="https://fr-fr.facebook.com" class="facebook">
+                        <img src="images/facebook40_40.png"/></a>
+                    <a href="https://twitter.com/?lang=fr" class="twitter">
+                        <img src="images/twitter40_40.jpg"/></a>
+                </div>
+            </div>
+            <div class="col-md-4 adresse"><strong><h4>Wild Bar<br/>1 av du champs de Mars<br/>45000 ORLEANS<br/>02 38 69
+                80 80<br/>www.wildbar.fr / staff@wildbar.fr</h4></strong>
+            </div>
+
+            <div class="col-md-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d21401.533938706823!2d1.8941780000000001!3d47.893974!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e4e5268a751659%3A0x2fea9d6d51fe0564!2s1+Avenue+du+Champ+de+Mars%2C+45100+Orl%C3%A9ans%2C+France!5e0!3m2!1sfr!2sfr!4v1505489175706"
+                        width="200" height="200" frameborder="0" style="border:0" allowfullscreen>
+                </iframe>
+            </div>
+
+        </div>
+
+        <div class="row dev">
+
+            <div class="col-md-12"><strong>Site développé par Beerman avec la collaboration du Staff</strong>
+            </div>
+
+        </div>
+
+    </footer>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="index.js"></script>
+
+</body>
+
+</html>
