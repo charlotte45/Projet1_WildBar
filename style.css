@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
 
 .home {
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .background_picture {
@@ -20,7 +20,7 @@
 
 .happy_hour_picture {
     position: absolute;
-    top: 70%;
+    top: 60%;
     right: 1%;
 }
 
